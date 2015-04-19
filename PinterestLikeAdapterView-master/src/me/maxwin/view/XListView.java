@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file XListView.java
  * @package me.maxwin.view
  * @create Mar 18, 2012 6:28:41 PM
@@ -355,8 +355,7 @@ public class XListView extends MultiColumnListView implements OnScrollListener {
 		public void onLoadMore();
 	}
 
-	@Override
-	public void onScrollStateChanged(PLA_AbsListView view, int scrollState) {
+		public void onScrollStateChanged(PLA_AbsListView view, int scrollState) {
 		if (mScrollListener != null) {
 			mScrollListener.onScrollStateChanged(view, scrollState);
 		}
